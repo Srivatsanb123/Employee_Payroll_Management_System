@@ -86,6 +86,9 @@ public class PayrollManagementSystemFX extends Application {
     }
 
     private void initializeTableColumns() {
+        // Clear existing columns
+        employeeTable.getColumns().clear();
+
         TableColumn<Employee, Integer> idColumn = new TableColumn<>("ID");
         idColumn.setCellValueFactory(new PropertyValueFactory<>("id"));
 
