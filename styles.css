@@ -1,0 +1,12 @@
+.table-view {
+    -fx-background-color: #f5f5f5;
+}
+
+.button {
+    -fx-background-color: #4caf50;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #45a049;
+}
